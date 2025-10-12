@@ -141,9 +141,9 @@ const Sidebar = () => {
       <div className="p-4 border-t border-gray-200">
         <div className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://placehold.co/40x40/E2E8F0/475569?text=JD" alt="User" className="w-10 h-10 rounded-full flex-shrink-0" />
+          <img src="https://placehold.co/40x40/E2E8F0/475569?text=SH" alt="User" className="w-10 h-10 rounded-full flex-shrink-0" />
           <div className="ml-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-            <p className="font-semibold text-sm text-gray-700">John Doe</p>
+            <p className="font-semibold text-sm text-gray-700">Sahnawaz Hussain</p>
             <p className="text-xs text-gray-500">Investigator</p>
           </div>
         </div>
