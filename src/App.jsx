@@ -52,9 +52,9 @@ const mockData = {
     riskScore: 9.8,
     category: 'Terror Financing',
     pii: {
-      name: 'John Doe (Alias)',
-      phone: '+1-XXX-XXX-5678',
-      email: 'j.doe***@proton.me',
+      name: 'Osama Bin Laden',
+      phone: '*******-5678',
+      email: 'osama*@proton.me',
       bankInfo: 'Bank of S.A. - Acct# ...9876'
     },
     summary: { received: '15.4 BTC', sent: '15.1 BTC', balance: '0.3 BTC' },
@@ -122,7 +122,7 @@ const Sidebar = () => {
     <nav className="w-16 hover:w-64 bg-white border-r border-gray-200 flex flex-col transition-all duration-300 ease-in-out group shadow-lg z-10">
        <div className="flex items-center h-20 px-4 border-b border-gray-200">
         <Shield className="text-cyan-600 w-8 h-8 flex-shrink-0" />
-        <span className="text-xl font-bold ml-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-gray-900">Crypto-Intel</span>
+        <span className="text-xl font-bold ml-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-gray-900">CryptoNexus</span>
       </div>
       <ul className="flex-1 mt-4">
         {navItems.map(item => {
